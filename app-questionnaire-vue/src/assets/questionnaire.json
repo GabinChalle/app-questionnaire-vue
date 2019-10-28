@@ -1,25 +1,68 @@
 {
+    "nbQuestions": 3,
     "test":[
-        {
-            "question": "Alez-vous bien ?",
-            "option1": "oui",
-            "option2": "non",
-            "option3": "moyen",
-            "reponse": "option1"
+        {   
+            "id": "0",
+            "question": "Allez-vous bien ?",
+            "options":[
+                {
+                    "intitule" :"on est là",
+                    "reponse_user" : false,
+                    "valide": false
+                },
+                {
+                    "intitule" :"ah oui oui",
+                    "reponse_user" : false,
+                    "valide": false
+                },
+                {
+                    "intitule" :"non",
+                    "reponse_user" : false,
+                    "valide": false
+                }
+            ]
         },
         {
+            "id": "1",
             "question": "Fait-il beau ?",
-            "option1": "de fou",
-            "option2": "il pleut comme d'hab",
-            "option3": "c'était quoi la question ?",
-            "reponse": "option2"
+            "options":[
+                {
+                    "intitule" :"soleil",
+                    "reponse_user" : false,
+                    "valide": false
+                },
+                {
+                    "intitule" :"pluie",
+                    "reponse_user" : false,
+                    "valide": false
+                },
+                {
+                    "intitule" :"ouragan",
+                    "reponse_user" : false,
+                    "valide": false
+                }
+            ]
         },
         {
+            "id": "2",
             "question": "Question finale ?",
-            "option1": "Hein ?",
-            "option2": "Allo ?",
-            "option3": "Faut vraiment répondre là",
-            "reponse": "option2"
+            "options":[
+                {
+                    "intitule" :"waouw",
+                    "reponse_user" : false,
+                    "valide": false
+                },
+                {
+                    "intitule" :"super",
+                    "reponse_user" : false,
+                    "valide": false
+                },
+                {
+                    "intitule" :"génial",
+                    "reponse_user" : false,
+                    "valide": false
+                }
+            ]
         }
 
     ]
